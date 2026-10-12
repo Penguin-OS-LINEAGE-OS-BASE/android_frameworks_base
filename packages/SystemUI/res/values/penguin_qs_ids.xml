@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Penguin QS port: ids/integers referenced by PenguinSystemUI that have no
+  upstream definition. Additive only; safe to extend.
+-->
+<resources>
+    <!-- Island media-chip semantic actions (used via getActionById; null-safe). -->
+    <item type="id" name="actionNext" />
+    <item type="id" name="actionPlayPause" />
+    <item type="id" name="actionPrev" />
+    <!-- Shade / status-bar slots referenced by styled headers. -->
+    <item type="id" name="centered_area" />
+    <item type="id" name="statusIcons" />
+    <item type="id" name="status_bar_end_side_content" />
+    <!-- Volume dialog slots referenced by styled volume looks. -->
+    <item type="id" name="odi_captions_icon" />
+    <item type="id" name="volume_dialog_background" />
+    <item type="id" name="volume_dialog_bottom_section_container" />
+    <item type="id" name="volume_dialog_main_slider_container" />
+    <!-- Live-score/event chip divider count (island feature; QS builds need the symbol). -->
+    <integer name="config_currentInfoDivider">1</integer>
+</resources>

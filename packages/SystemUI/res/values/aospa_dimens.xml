@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   SPDX-FileCopyrightText: 2022-2024 Paranoid Android
+   SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- HD calling icon -->
+    <dimen name="signal_icon_viewport_size">24dp</dimen>
+
+    <!-- Custom Quick Settings -->
+    <dimen name="custom_qs_tile_height">76dp</dimen>
+    <!-- Start inset of a large tile in the Penguin QS style. Zero on purpose: the icon box already
+         pads itself by 8dp on every side, which is also the gap the 56dp circle leaves above and
+         below it inside the 72dp tile. Any inset here is added on top of that and pushes the circle
+         further from the left edge than it sits from the top and bottom. -->
+    <dimen name="custom_qs_tile_start_padding">0dp</dimen>
+
+    <dimen name="power_menu_button_gap_vertical">48dp</dimen>
+    <dimen name="power_menu_button_gap_horizontal">54dp</dimen>
+
+</resources>
